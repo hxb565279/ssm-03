@@ -1,0 +1,15 @@
+body{
+    position: absolute;
+}
+.login_form1{
+    align-content: center;
+    width: 300px;
+    position: relative;
+         top: 220px;
+    left: 550px;
+
+}
+.login_form2{
+    width: 300px;
+    height: 150px;
+}
