@@ -20,16 +20,16 @@
 <%--<a href="${pageContext.request.contextPath}/ /text.action">--%>
 <%--    111--%>
 <%--</a>--%>
-<form action="${pageContext.request.contextPath }/login.action"
-      method="post"  class="login_form1">
+<form action="${pageContext.request.contextPath}/login.action"
+      method="post" onsubmit="return true"  class="login_form1">
     <div style="text-align: center;" class="login_form2">
         <label >登录</label><br>
         <label> 账&nbsp;号：<input  type="text" name="username"/></label>
         <br/><br/>
         <label>密&nbsp;码：<input type="password" name="password"/><br></label>
         <br>
-        <input type="submit" value="登录" onsubmit="return true"/>
-        <input type="button" value="注册" onclick="window.open('./register.jsp')">
+        <input type="submit" value="登录" />
+        <input type="button" value="注册" onclick="window.location.href='${pageContext.request.contextPath}/reRegister.action'">
     </div>
 </form>
 </body>
