@@ -38,18 +38,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/config" type="java-resource" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="openjdk-15" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://J:/源代码/boot-crm/WebContent/WEB-INF/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://J:/源代码/boot-crm/WebContent/WEB-INF/lib" recursive="false" />
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
   </component>
 </module>
